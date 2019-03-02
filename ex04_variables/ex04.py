@@ -7,16 +7,22 @@
 # print 'abc', 123 -> print('abc %s' % (123))
 # print 'abc', abc, 'def' -> print('abc %s def' % (abc))
 
+
+# variables
 자동차 = 100
 차_안_공간 = 4.0
-운전사 = 30
 
+# declarations
+운전사 = 30
 승객 = 90
+
+# operations
 운행_안하는_차 = 자동차 - 운전사
 운행하는_차 = 운전사
 총_정원 = 운행하는_차 * 차_안_공간
 차당_평균_승객 = 승객 / 운행하는_차
 
+# print lines
 print("자동차", 자동차, "대가 있습니다.")
 print("운전자는", 운전사, "명 뿐입니다.")
 print("오늘은 빈 차가", 운행_안하는_차, "대일 것입니다.")
